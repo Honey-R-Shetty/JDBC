@@ -1,4 +1,4 @@
-package com.employee.test;
+package employee;
 
 import com.employee.dao.EmployeeDAO;
 import com.employee.model.Employee;

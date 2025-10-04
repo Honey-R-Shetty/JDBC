@@ -18,4 +18,8 @@ public class Order {
 	public String toString() {
 		return orderId + " , CustID:" + custId + " , " + orderDate + " , " + amount;
 	}
+
+	public double getAmount() {
+		return amount;
+	}
 }

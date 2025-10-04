@@ -2,11 +2,13 @@ package com.order.main;
 
 import com.order.dao.OrderDAO;
 import com.order.model.Order;
+
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Scanner;
 
 public class OnlineOrderApp {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException {
 		Scanner sc = new Scanner(System.in);
 		OrderDAO dao = new OrderDAO();
 		while (true) {
